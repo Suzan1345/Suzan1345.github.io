@@ -279,8 +279,8 @@ input[type="submit"] {
 }
 .button3{
     position: absolute;
-    top: -53%;
-    left: 111%;
+    top: 120px;
+    left: 5px;
     z-index: 1;
     background-color: pink;
     color: white;
@@ -291,25 +291,71 @@ input[type="submit"] {
 }
 .eingabe3{
     position: absolute;
-    top: 53%;
-    left: 37%;
+    top: 46%;
+    left: 51%;
     color: pink;
     font-size: 20px;
     z-index: 1;
 }
 .eingabe4{
     position: absolute;
-    top: 45%;
-    left: 37%;
+    top: 61%;
+    left: 33%;
     color: pink;
     font-size: 20px;
     z-index: 1;
 }
 .beschreibung0{
     position: absolute;
-    top: -10%;
-    left: 29px;
+    top: -87%;
+    left: 0px;
     color: pink;
     font-size: 20px;
     z-index: 1;
+}
+.eingabe5{
+    position: absolute;
+    top: 53%;
+    left: 51%;
+    color: pink;
+    font-size: 20px;
+    z-index: 1;
+}
+.eingabe6{
+    position: absolute;
+    top: 46%;
+    left: 33%;
+    color: pink;
+    font-size: 20px;
+    z-index: 1;
+}
+.map{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    width: 30%;
+    height: 35%;
+    z-index: 2;
+    border-radius: 20px;
+    border : 2px solid hotpink;
+}
+.textschreibung{
+    position: absolute;
+    top: 47%;
+    left: 12%;
+    width: 30%;
+    height: 35%;
+    z-index: 2;
+    color: pink;
+    font-size: 19px;
+}
+.NeuerText{
+    position: absolute;
+    top: 74%;
+    left: 12%;
+    width: 30%;
+    height: 35%;
+    z-index: 2;
+    color: pink;
+    font-size: 19px;
 }
