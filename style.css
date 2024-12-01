@@ -305,3 +305,11 @@ input[type="submit"] {
     font-size: 20px;
     z-index: 1;
 }
+.beschreibung0{
+    position: absolute;
+    top: -10%;
+    left: 29px;
+    color: pink;
+    font-size: 20px;
+    z-index: 1;
+}
