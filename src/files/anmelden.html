@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anmelden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="newContainer">
+    <h1>Bitte melde dich an </h1>
+</div>
+
+
+<div class="toolbar">
+    <div class="toolbar-left">
+        <a href="startseite.html">Startseite</a>
+        <a href="To-DO.html">To-DO</a>
+        <a href="kalendar.html">Kalendar</a>
+    </div>
+    <div class="toolbar-right">
+        <div class="dropdown" >
+            <button class="dropbtn" onclick="location.href='startseiteProfil.html'">Profil</button>
+            <div class="dropdown-content">
+                <a href="#Anmelden"onclick="location.href='anmelden.html'" >Anmelden</a>
+                <a href="#Einstellungen"onclick="location.href='Settings.html'" >Einstellungen</a>
+            </div>
+        </div>
+        <button class="buttonSearch" onclick="location.href='suche.html'">Suchen</button>
+    </div>
+</div>
+
+<div class="einabe1">
+<form>
+    <div class="beschreibung1">
+    <label for="name">Benutzername:</label>
+    </div>
+    <!--hier vielleicht statt div den button tag? -->
+    <input type="text" id="name" name="name" placeholder="E-Mail-Adresse..." required>
+
+</form>
+</div>
+
+<div class="einabe2">
+    <form>
+        <div class="beschreibung2">
+            <label for="name">Passwort:</label>
+        </div>
+        <input type="text" id="name" name="name" placeholder="Passwort..." required>
+        <div class="button2">
+            <input type="submit" value="Anmelden">
+        </div>
+    </form>
+</div>
+
+<div class="passwortVergessen">
+    <a href="PasswortVergessen.html" onclick="location.href='PasswortVergessen'.html">Passwort vergessen</a>
+</div>
+
+    <button class="registerButton" onclick="location.href='registrieren.html'">Neues Konto</button>
+
+<img class="secondwhite" src="../templates/background.jpg">
+
+
+
+<img class="header-image" src="../templates/websitee.jpg" alt="websitee"></img>
+</body>
+</html>

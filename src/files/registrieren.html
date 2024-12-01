@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrieren</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="newContainer">
+<h1>Neues Konto anlegen </h1>
+</div>
+
+
+<div class="eingabe4">
+    <form>
+        <div class="beschreibung1">
+            <label for="name">Benutzername:</label>
+        </div>
+        <!--hier vielleicht statt div den button tag? -->
+        <input type="text" id="name" name="name" placeholder="E-Mail-Adresse" required>
+    </form>
+</div>
+
+<div class="eingabe3">
+    <form>
+        <div class="beschreibung2">
+            <label for="name">Passwort:</label>
+        </div>
+        <input type="text" id="name" name="name" placeholder="Passwort" required>
+        <div class="button3">
+            <input type="submit" value="Konto erstellen">
+        </div>
+    </form>
+</div>
+
+
+<div class="toolbar">
+    <div class="toolbar-left">
+        <a href="startseite.html">Startseite</a>
+        <a href="To-DO.html">To-DO</a>
+        <a href="kalendar.html">Kalendar</a>
+    </div>
+    <div class="toolbar-right">
+        <div class="dropdown" >
+            <button class="dropbtn" onclick="location.href='startseiteProfil.html'">Profil</button>
+            <div class="dropdown-content">
+                <a href="#Anmelden"onclick="location.href='anmelden.html'" >Anmelden</a>
+                <a href="#Einstellungen"onclick="location.href='Settings.html'" >Einstellungen</a>
+            </div>
+        </div>
+        <button class="buttonSearch" onclick="location.href='suche.html'">Suchen</button>
+    </div>
+</div>
+
+<img class="thirdwhite" src="../templates/background.jpg">
+<img class="header-image" src="../templates/websitee.jpg" alt="websitee"></img>
+</body>
+</html>
