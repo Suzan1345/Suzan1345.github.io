@@ -359,3 +359,19 @@ input[type="submit"] {
     color: pink;
     font-size: 19px;
 }
+.newImpressum{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+}
+.TETE{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    color: pink;
+}
