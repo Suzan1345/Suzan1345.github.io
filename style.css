@@ -375,3 +375,41 @@ input[type="submit"] {
     z-index: 2;
     color: pink;
 }
+.Profilbeschreibung{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    color: pink;
+    font-size: 20px;
+    z-index: 1;
+}
+.anmeldebutton{
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    z-index: 1;
+    background-color: pink;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.Profilbild{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    width: 10%;
+    height: 20%;
+    z-index: 3;
+    border-radius: 70px;
+    border : 2px solid hotpink;
+}
+.ProfilbeschreibungNeu{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: pink;
+    font-size: 20px;
+    z-index: 1;
+}
