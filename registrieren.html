@@ -13,12 +13,25 @@
 </div>
 
 
+<!-- Add this form to your HTML file (e.g., To-DO.html)
+<form id="userForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">Benutzer erstellen</button>
+</form>
+
+
 <div class="eingabe4">
     <form>
         <div class="beschreibung0">
             <label for="name">Benutzername:</label>
-        </div>
-        <!--hier vielleicht statt div den button tag? -->
+        </div> -->
+
+        <!--hier vielleicht statt div den button tag?
         <input type="text" id="name" name="name" placeholder="E-Mail-Adresse..." required>
     </form>
 </div>
@@ -51,7 +64,7 @@
         </div>
         <input type="text" id="name" name="name" placeholder="Name..." required>
     </form>
-</div>
+</div> -->
 
 <div class="toolbar">
     <div class="toolbar-left">
@@ -59,6 +72,41 @@
         <a href="To-DO.html">To-DO</a>
         <a href="kalendar.html">Kalendar</a>
     </div>
+
+    <form id="userForm">
+        <div class="eingabe6">
+            <div class="beschreibung5">
+                <label for="name">Name:</label>
+            </div>
+            <input type="text" id="name" name="name" placeholder="Name..." required>
+        </div>
+
+        <div class="eingabe4">
+            <div class="beschreibung0">
+                <label for="email">Email:</label>
+            </div>
+            <input type="email" id="email" name="email" placeholder="E-Mail-Adresse..." required>
+        </div>
+
+        <div class="eingabe3">
+            <div class="beschreibung2">
+                <label for="password">Passwort:</label>
+            </div>
+            <input type="password" id="password" name="password" placeholder="Passwort..." required>
+        </div>
+
+        <div class="eingabe5">
+            <div class="beschreibung3">
+                <label for="passwordRepeat">Passwort wiederholen:</label>
+            </div>
+            <input type="password" id="passwordRepeat" name="passwordRepeat" placeholder="Passwort wiederholen..." required>
+        </div>
+
+        <div class="button3">
+            <button type="submit">Benutzer erstellen</button>
+        </div>
+    </form>
+
     <div class="toolbar-right">
         <div class="dropdown" >
             <button class="dropbtn" onclick="location.href='startseiteProfil.html'">Profil</button>
@@ -72,5 +120,7 @@
 
 <img class="thirdwhite" src="background.jpg">
 <img class="header-image" src="websitee.jpg" alt="websitee"></img>
+
+<script src="script.js"></script>
 </body>
 </html>
