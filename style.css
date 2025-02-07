@@ -1,6 +1,6 @@
 body {
     margin:0;
-    @import url(https://fonts.bunny.net/css?family=abhaya-libre:400);
+    font-family: 'Abhaya Libre', serif;
 }
 .whitespace{
     position: absolute;
@@ -431,7 +431,6 @@ input[type="submit"] {
     loading: lazy;
 }
 .TDListe {
-    position: absolute;
     top: 35vh;
     left: 12%;
     width: 30vh;
