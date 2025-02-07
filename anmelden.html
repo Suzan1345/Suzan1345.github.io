@@ -11,6 +11,17 @@
     <h1>Bitte melde dich an </h1>
 </div>
 
+<footer>
+    <img class="footer-image" src="bild-1.jpg" alt="footer"></img>
+</footer>
+
+<div class="impressum">
+    <a href="impressum.html" onclick="location.href='impressum'.html">Impressum</a>
+</div>
+
+<div class="kontakt">
+    <a href="kontakt.html" onclick="location.href='kontakt'.html">Kontakt</a>
+</div>
 
 <div class="toolbar">
     <div class="toolbar-left">
@@ -25,32 +36,30 @@
                 <a href="#Anmelden"onclick="location.href='anmelden.html'" >Anmelden</a>
             </div>
         </div>
-        <button class="buttonSearch" onclick="location.href='suche.html'">Suchen</button>
     </div>
 </div>
 
+
+<form  method="post">
 <div class="einabe1">
-<form>
+
     <div class="beschreibung1">
-    <label for="name">Benutzername:</label>
+    <label for="email">Benutzername:</label>
     </div>
     <!--hier vielleicht statt div den button tag? -->
-    <input type="text" id="name" name="name" placeholder="E-Mail-Adresse..." required>
-
-</form>
+    <input type="text" id="email" name="name" placeholder="E-Mail-Adresse..." required>
 </div>
 
 <div class="einabe2">
-    <form>
         <div class="beschreibung2">
-            <label for="name">Passwort:</label>
+            <label for="password">Passwort:</label>
         </div>
-        <input type="text" id="name" name="name" placeholder="Passwort..." required>
+        <input type="text" id="password" name="password1" placeholder="Passwort..." required>
         <div class="button2">
             <input type="submit" value="Anmelden">
         </div>
-    </form>
 </div>
+</form>
 
 <div class="passwortVergessen">
     <a href="PasswortVergessen.html" onclick="location.href='PasswortVergessen'.html">Passwort vergessen</a>
@@ -63,5 +72,6 @@
 
 
 <img class="header-image" src="websitee.jpg" alt="websitee"></img>
+<script src="Login.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 body {
     margin:0;
-    font-family:sans-serif;
+    @import url(https://fonts.bunny.net/css?family=abhaya-libre:400);
 }
 .whitespace{
     position: absolute;
@@ -48,6 +48,7 @@ body {
     position: absolute;
 }
 .toolbar {
+    display: flex;
     overflow: hidden;
     background-color: pink;
     padding: 0px;
@@ -279,12 +280,12 @@ input[type="submit"] {
 }
 .button3{
     position: absolute;
-    top: 120px;
-    left: 5px;
+    top: 62vh;
+    right: 89vh;
     z-index: 1;
     background-color: pink;
     color: white;
-    padding: 3px 3px;
+    padding: 12px 12px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
@@ -329,16 +330,8 @@ input[type="submit"] {
     font-size: 20px;
     z-index: 1;
 }
-.map{
-    position: absolute;
-    top: 50%;
-    right: 20%;
-    width: 30%;
-    height: 35%;
-    z-index: 2;
-    border-radius: 20px;
-    border : 2px solid hotpink;
-}
+
+
 .textschreibung{
     position: absolute;
     top: 47%;
@@ -371,7 +364,7 @@ input[type="submit"] {
     top: 35%;
     left: 12%;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     z-index: 2;
     color: pink;
 }
@@ -412,4 +405,50 @@ input[type="submit"] {
     color: pink;
     font-size: 20px;
     z-index: 1;
+}
+
+.Karte{
+    position: absolute;
+    top: 37vh;
+    right: 80vh;
+    width: 30vh;
+    height: 20vh;
+    z-index: 2;
+    border-radius: 20px;
+    border : none;
+    loading: lazy;
+}
+
+.Kalendar{
+    position: absolute;
+    top: 20vh;
+    left: 80vh;
+    width: 30vh;
+    height: 10vh;
+    z-index: 2;
+    border-radius: 20px;
+    border : none;
+    loading: lazy;
+}
+.TDListe {
+    position: absolute;
+    top: 35vh;
+    left: 12%;
+    width: 30vh;
+    height: 10vh;
+    font-size: 20px;
+    z-index: 2;
+    border-radius: 20px;
+    border: none;
+    color: lightpink;
+}
+
+.Bgr{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    color: white;
+    font-size: 25px;
+    z-index: 2;
+    color: pink;
 }
